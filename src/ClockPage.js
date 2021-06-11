@@ -7,7 +7,7 @@ export const ClockPage = () => {
 
     const countDown = () => {
       intervalHandler = setInterval(() => {
-        console.log(`szw time =`, time); //time每隔一秒, 打印出来的都是60
+        console.log(`szw time =`, time); //=> time is always 60
         setTime(time - 1);
       }, 1000);
     }
