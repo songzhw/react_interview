@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 let intervalHandler = 0;
 
@@ -6,11 +6,12 @@ export const ClockPage = () => {
     const [time, setTime] = useState(60);
 
     const countDown = () => {
+      console.log(`clicked the button`)
       intervalHandler = setInterval(() => {
-        console.log(`szw time =`, time); //=> time is always 60
+        console.log(`ClockPage.countDown() : time =`, time);
         setTime(time - 1);
       }, 1000);
-    }
+    };
 
 
     return (
