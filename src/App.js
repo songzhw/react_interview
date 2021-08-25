@@ -8,7 +8,7 @@ function App() {
 
       <ClockPage />
 
-      <h4>Please only click the button once !</h4>
+      <h1>Please only click the button once !</h1>
 
     </div>
   );
