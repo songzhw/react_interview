@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 let intervalHandler = 0;
 
-export const ClockPage = () => {
+export const ClockView = () => {
   const [time, setTime] = useState(60);
 
   const countDown = () => {
